@@ -54,8 +54,7 @@ education = (
 )
 
 Employment = (
-    'Employed, full-time' ,
-    'Employed, part-time or freelancer'
+    'Employed, full-time'
 )
 
 DevType = (
@@ -74,7 +73,7 @@ Age = (
 country = st.selectbox("Country", countries)
 education = st.selectbox("Education Level", education)
 expericence = st.slider("Years of Experience", 0, 50, 3)
-Employment = st.selectbox('Employment',Employment)
+Employment = Employment
 DevType = st.selectbox('DevType',DevType)
 Age = st.selectbox('Age',Age)
 
