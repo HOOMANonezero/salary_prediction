@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 
 model = joblib.load('xgbpipef.joblib')
-st.title('Computrt science field salary prediction in 2025')
+st.title('Computer science field salary prediction in 2025')
 st.write("""### We need some information to predict the salary""")
 
 countries = (
